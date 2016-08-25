@@ -67,7 +67,7 @@ Partial Class frmSplash
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.CKasper1b1.My.Resources.Resources.Storks
-        Me.PictureBox1.Location = New System.Drawing.Point(223, 146)
+        Me.PictureBox1.Location = New System.Drawing.Point(224, 146)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(145, 143)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
