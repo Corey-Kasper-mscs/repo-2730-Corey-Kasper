@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CKasper1b1", "CKasper1b1\CKasper1b1.vbproj", "{3FD85433-0100-4593-BC8C-7F0C379BF86E}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ckasper1C1", "Ckasper1C1\Ckasper1C1.vbproj", "{B9D3C51C-8054-451C-BDE9-40B38EA182A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3FD85433-0100-4593-BC8C-7F0C379BF86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FD85433-0100-4593-BC8C-7F0C379BF86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FD85433-0100-4593-BC8C-7F0C379BF86E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D3C51C-8054-451C-BDE9-40B38EA182A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D3C51C-8054-451C-BDE9-40B38EA182A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D3C51C-8054-451C-BDE9-40B38EA182A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D3C51C-8054-451C-BDE9-40B38EA182A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
