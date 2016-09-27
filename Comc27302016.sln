@@ -17,6 +17,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ckasper1g1", "Ckasper1g1\Ck
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ckasper1h1", "Ckasper1h1\Ckasper1h1.vbproj", "{47D514E0-EA44-4428-BCBD-F14757102758}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ckasper2a1", "Ckasper2a1\Ckasper2a1.vbproj", "{D0E20027-C43B-4418-8AEC-48E911808980}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{47D514E0-EA44-4428-BCBD-F14757102758}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47D514E0-EA44-4428-BCBD-F14757102758}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47D514E0-EA44-4428-BCBD-F14757102758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E20027-C43B-4418-8AEC-48E911808980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E20027-C43B-4418-8AEC-48E911808980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E20027-C43B-4418-8AEC-48E911808980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E20027-C43B-4418-8AEC-48E911808980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
