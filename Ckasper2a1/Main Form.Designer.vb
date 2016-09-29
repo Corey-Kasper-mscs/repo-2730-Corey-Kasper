@@ -22,8 +22,6 @@ Partial Class frmMain
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
         Me.lblTotalSales = New System.Windows.Forms.Label()
         Me.lblTotalItems = New System.Windows.Forms.Label()
         Me.txtDate = New System.Windows.Forms.TextBox()
@@ -39,7 +37,6 @@ Partial Class frmMain
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtMuffins = New System.Windows.Forms.TextBox()
-        Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
         Me.lblMsg = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -176,14 +173,6 @@ Partial Class frmMain
         Me.txtMuffins.Size = New System.Drawing.Size(47, 27)
         Me.txtMuffins.TabIndex = 5
         '
-        'PrintForm1
-        '
-        Me.PrintForm1.DocumentName = "document"
-        Me.PrintForm1.Form = Me
-        Me.PrintForm1.PrintAction = System.Drawing.Printing.PrintAction.PrintToPreview
-        Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
-        Me.PrintForm1.PrintFileName = Nothing
-        '
         'lblMsg
         '
         Me.lblMsg.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -241,6 +230,5 @@ End Sub
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label6 As Label
     Friend WithEvents txtMuffins As TextBox
-    Friend WithEvents PrintForm1 As PowerPacks.Printing.PrintForm
     Friend WithEvents lblMsg As Label
 End Class

@@ -21,6 +21,12 @@ Public Class frmMain
         Dim decSubtotal As Decimal
         Dim decSalesTax As Decimal
         Dim dectotalSales As Decimal
+        Static strClerk As String
+
+        Const strPROMPT As String = "Salesclerk's name:"
+        Const strTITLE As String = "Name Entry"
+        ' assign name to class-level variable
+        strClerk = InputBox(strPROMPT, strTITLE, strClerk)
 
         Integer.TryParse(txtDonuts.Text, intDounts)
         Integer.TryParse(txtMuffins.Text, intMuffins)
@@ -64,27 +70,18 @@ Public Class frmMain
         Me.Close()
     End Sub
 
-    Private Sub btnPrint_Click(sender As Object, e As EventArgs)
-        ' print the sales receipt
-
-        btnCalc.Visible = False
-        btnClear.Visible = False
-        btnExit.Visible = False
-        btnPrint.Visible = False
-        PrintForm1.Print()
-        btnCalc.Visible = True
-        btnClear.Visible = True
-        btnExit.Visible = True
-        btnPrint.Visible = True
-
-    End Sub
-
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles Me.Load
         'get the sakesclerk's Name
 
-        Const strPROMPT As String = "Salesclerk's name:"
-        Const strTITLE As String = "Name Entry"
+        'Const strPROMPT As String = "Salesclerk's name:"
+        'Const strTITLE As String = "Name Entry"
         ' assign name to class-level variable
-        strClerk = InputBox(strPROMPT, strTITLE)
+        'strClerk = InputBox(strPROMPT, strTITLE)
+    End Sub
+
+    Private Sub txtDonuts_TextChanged(sender As Object, e As EventArgs) Handles txtDonuts.TextChanged, txtMuffins.TextChanged
+        lblTotalItems.Text = String.Empty
+        lblTotalSales.Text = String.Empty
+        lblMsg.Text = String.Empty
     End Sub
 End Class
